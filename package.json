@@ -10,7 +10,9 @@
   "author": "José Carneiro",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "helmet": "^3.1.0",
+    "morgan": "^1.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
