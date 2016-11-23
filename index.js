@@ -3,6 +3,7 @@
 // DEPENDENCIES
 var express = require('express');
 var lookup = require('./utils/lookup');
+var config = require('./config');
 var links = require('./config/links').links;
 
 // INIT APP
@@ -27,4 +28,4 @@ app.use(function(req, res) {
 });
 
 // SERVER LISTEN
-app.listen(3000);
+app.listen(config.port);
